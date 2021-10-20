@@ -1,0 +1,70 @@
+.card{
+    max-width: 1200px;
+    width: 100%;
+    margin-top: 220px;
+
+    .wrap{
+        display: flex;
+        justify-content: space-between;
+
+        h1{
+            font-family: 'Merriweather', serif;
+        }
+        button{
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 17px;
+            line-height: 60px;
+            background: none;
+            border: none;
+            align-items: center;
+            color: #FB8F1D;
+            cursor: pointer;
+        }
+        img{
+            padding-left: 11px;
+        }
+    }
+
+    .cardItems{
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .itemLocation{
+    position: relative;
+    font-family: Inter;
+    margin-bottom: 20px;
+
+        h3{
+            position: absolute;
+            width: 120px;
+            height: 56px;
+            top: 145px;
+            border-radius: 0px 6px 0px 0px;
+            background: #FFFFFF;
+            font-size: 18px;
+            font-weight: 800;
+        }
+        p{
+            position: absolute;
+            width: 120px;
+            height: 56px;
+            top: 165px;
+            border-radius: 0px 6px 0px 0px;
+            background: #FFFFFF;
+            color: #7D7987;
+            font-size: 18px;
+
+        }
+        img{
+            border-radius: 5%;
+        }
+    }
+
+
+}
+    

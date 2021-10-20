@@ -1,0 +1,83 @@
+.main{
+    margin-top: 70px;
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    height: 650px;
+
+    h1{
+        font-weight: bold;
+        font-size: 7.8vh;
+    }
+
+    p{
+        font-size: 2.7vh;
+        font-family: Inter;
+        font-weight: 600;
+        margin-bottom: 0;
+    }
+
+    .dropDonw{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    ul{
+        padding: 0;
+    }
+}
+
+.left{
+    font-family: 'Merriweather', serif;
+}
+
+.dropDown {
+    width: 220px;
+    height: 52px;
+    border-radius: 6px;
+    border: #AFB0B9;
+    font-family: Inter;
+    font-size: 15px;
+}
+
+.input{
+    width: 220px;
+    height: 36px;
+    border-radius: 6px;
+    color: #4A4C53;
+    border: 1px solid #AFB0B9;
+    font-size: 15px;
+    font-family: Inter;
+}
+
+.mainDrop {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 35px;
+    margin-bottom: 30px; //1
+}
+
+.leftDrop {
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+.right{
+    img{
+        width: 650px;
+    }
+}
+@media all and (max-width:1150px){
+    .right{
+       
+        img{
+            display: none;
+        }
+    }
+    .left{
+        background-image: url(../../img/human1.png);
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: 600px;
+        width: 800px;
+    }
+}//1

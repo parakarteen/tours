@@ -1,0 +1,92 @@
+.countainer{
+    margin-top: 220px;
+
+    h1{
+        margin-bottom: 0;
+    }
+}
+
+.guides{
+    display: flex;
+    justify-content: space-between;
+
+    .left{
+        margin-top: 140px;
+        img{
+            padding-bottom: 30px;
+            height: 54px;
+        }
+
+        p{
+            padding-bottom: 40px;
+            font-family: Mulish;
+            font-size: 2.8vh;
+        }
+
+        h3{
+            font-family: Inter;
+            font-size: 2.6vh;
+            font-weight: 800;
+        }
+
+        h6{
+            font-family: Inter;
+            font-size: 2.1vh;
+            color: rgba(0, 0, 0, 0.85);
+        }
+    }
+
+    .right{
+        margin-top: 50px;
+        position: relative;
+        .btns{
+            position: absolute;
+            left: 245px;
+            top: 415px;
+            background: #FFFFFF;
+            border-radius: 16px 0px 0px 0px;
+            display: flex;
+
+            button{
+                border: none;
+                width: 70px;
+                height:80px;
+                background: #FFFFFF;
+                border-radius: 16px 0px 0px 0px;
+            }
+        }
+
+    }
+}
+@media all and (max-width: 620px){
+    .left{
+        img{
+            width: 138px !important;
+        }
+        p{
+            font-size: 2vh !important;
+        }
+        h3{
+            font-size: 2vh !important;
+        }
+    }
+    .right{
+        margin-top: 120px !important;
+        position: relative;
+        img{
+            width: 200px;
+        }
+        .btns{
+            position: absolute;
+            left: 78px !important;
+            top: 200px !important;
+        }
+
+
+    .btnItem{
+        width: 30px;
+    }
+
+    }
+//1 
+}

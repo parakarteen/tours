@@ -1,0 +1,82 @@
+.card{
+    max-width: 1200px;
+    width: 100%;
+
+    .wrap{
+        display: flex;
+        justify-content: space-between;
+
+        h1{
+            font-family: 'Merriweather', serif;
+        }
+    }
+
+    .cardItems{
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .itemLocation{
+    position: relative;
+    font-family: Inter;
+    margin-bottom: 20px;
+
+        h3{
+            position: absolute;
+            width: 120px;
+            height: 56px;
+            top: 143px;
+            border-radius: 0px 6px 0px 0px;
+            background: #FFFFFF;
+            font-size: 18px;
+            font-weight: 800;
+        }
+        p{
+            position: absolute;
+            width: 120px;
+            height: 56px;
+            top: 165px;
+            border-radius: 0px 6px 0px 0px;
+            background: #FFFFFF;
+            color: #7D7987;
+            font-size: 18px;
+
+        }
+        img{
+            border-radius: 5%;
+            cursor: pointer;
+        }
+
+        .favotites{
+            position: absolute;
+            margin: 8px 0 0 8px;
+
+            &:hover{
+                border: 1px solid black;
+                border-radius: 20%;
+            }
+        }
+
+    
+    }
+
+    .searchBlock{
+        border: 2px solid #B8BECD;
+        border-radius: 6px;
+        height: 32px;
+        input{
+            border: none;
+            outline: none;
+        }
+
+        img{
+            margin: 3px;
+        }
+    }
+
+
+}
+    
+

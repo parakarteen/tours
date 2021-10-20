@@ -1,0 +1,45 @@
+.wrap{
+    margin-top: 220px;
+    display: flex;
+
+    .right{
+        padding: 80px;
+
+        h1{
+            font-size: 4.3vh;
+            font-weight: bold;
+            font-family: 'Merriweather', serif;
+        }
+
+        p{
+            font-size: 2.1vh;
+            font-weight: 300;
+            font-family: 'Mulish', sans-serif;
+            color: #7D7987;
+        }
+
+        .about{
+            text-decoration: none;
+        }
+    }
+
+    .left{
+        img{
+            width: 650px auto;
+        }
+    }
+}
+
+@media all and (max-width:1150px){
+.left {
+    img {
+        display: none;
+    }
+}
+
+.right {
+    h1 {
+        font-size: 4vh !important;
+    }
+}
+}

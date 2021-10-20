@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "imgURL": "/images/1.png",
+        "title": "Kol-Tor",
+        "region": "Chuy",
+        "description": "Kol-Tor is one of the most wonderful lakes of the Northern Tien Shan. The lake is located in the fascinating gorge of the same name in the intermountain cavity of the Kungei Ala-Too Range at an altitude of 2725 meters above sea level. Kol-Tor is famous for its unusually beautiful turquoise color. While glacier starts melting, It washes away the soil and grinds stones and rocks into dust, that's why the lake sparkles in bright sunlight with a green-blue color. From time to time the bowl of the lake overflows, then excess water flows out, and the stream that goes to the ground.",
+        "difficulty": "medium",
+        "price": 55
+      },
+      {
+        "id": 2,
+        "imgURL": "/images/2.png",
+        "title": "Kok-Moynok",
+        "region": "Issyk-Kul",
+       "description" : "The Kok-Moinok canyons got their name because they are located near the small village of Kok-Moinok in the Boom gorge. They are narrow, winding passages in yellow-red sandstone with a depth of 10-70m. The proximity of the Chu River with shrubs on the bank brings bright revitalizing notes to the landscapes. The river here flows through the plain, which is located on average at an altitude of 1550 m above sea level.The length of the canyons is different and ranges from 100m to 2.5 km. They are very photogenic, but vary greatly in beauty and picturesqueness.",
+       "difficulty":"easy",
+        "price":40
+      },
+      {
+        "id": 3,
+        "imgURL": "/images/3.png",
+        "title": "Sary-Chelek",
+        "region": "Jalal-Abad",
+        "descripton": "Sary-Chelek Lake is situated at Jalal-Abad Region (at 1,873 m asl), Western Part of Kyrgyzstan at the territory of Sary-Chelek Nature Reserve. Sary-Chelek (“Yellow Bucket” from Kyrgyz) is the main lake and one of the seven lakes in the area of Chatkal Mountain Ranges. Lake width from 350 m to 1500 m, the deepest point is 234 m.  The area is protected thus here are the rich species of plants and animals. Sary-Chelek honey is very popular and one of the best honey in Kyrgyzstan",
+        "difficulty": "medium",
+        "price": 70
+      },
+      {
+        "id": 4,
+        "imgURL": "/images/4.png",
+        "title": "Skazka",
+        "region": "Issyk-Kul",
+       "description":"Skazka Canyon is a small gorge on the southern shore of Issyk-Kul, famous for its red clay rocks. The canyon is located about 120 kilometers from Balykchi, near the village of Tosor.Fairy Tale is a very popular place among tourists. The reason for this is the easy accessibility of the canyon and its stunning landscapes and contrasts. Soil erosion, which has been going on for thousands of years, has done its job: a variety of bizarre figures of stone and clay rise in the canyon. The Skazka Canyon is composed of multi-colored clays, minerals and rocks, which adds to the picturesque nature of this place.",
+    "difficulty":"easy",
+    "price": 50
+      },
+      {
+        "id": 5,
+        "imgURL": "/images/5.png",
+        "title": "Ak-Tuz",
+        "region": "Chuy",
+       "description":"The gorge and the Ak-Tyuz village is located 137 km from Bishkek at an altitude of 2,300 m above sea level and is connected by a good asphalt road Bishkek - Kemin. In translation Ak-Tyuz means 'white valley', and this is due to the fact that the slopes of the gorge are white due to the large amount of salt contained in the clay that covers these slopes. A unique attraction of the Ak-Tyuz valley is a fountain that gushes to a height of 15 meters. The water rises even above the tops of coniferous trees. Locals often have picnics here. The fountain turns into a real block of ice in winter. At night in winter, this fountain works like a snow cannon.",
+    "difficulty":"easy",
+    "price": 40
+      },
+      {
+        "id": 6,
+        "imgURL": "/images/6.png",
+        "title": "Birch Grove",
+        "region": "Chui",
+       "description":"One-day hike to the Ala Archa gorge, in the Boyrok tract, not far from the Kashka Suu ski base. An easy relaxing hike, with a very beautiful birch grove, the recommended time to visit is September-October.",
+    "difficulty":"easy",
+    "price": 30
+      },
+      {
+        "id": 7,
+        "imgURL": "/images/7.png",
+        "title": "Ala-Archa",
+        "region": "Chui",
+       "description":"Ala-Archa gorge is one of the most famous sights of Kyrgyzstan. The Ala-Archa gorge is located in the Chui region and is a national park. Every year this alpine gorge receives hundreds of thousands of tourists, both local and foreign. There are several reasons for this popularity. Firstly, the Ala-Archa gorge is located only 40 kilometers from Bishkek and therefore it is very easy to get here and there is all the necessary tourist infrastructure: a good asphalt road, shops, hotels, cafes, and places for recreation among the picturesque nature.",
+    "difficulty":"medium",
+    "price": 80
+      },
+      {
+        "id": 8,
+        "imgURL": "/images/8.png",
+        "title": "Kok-Moynok",
+        "region": "Issyk-Kul",
+       "description":"The Kok-Moinok canyons got their name because they are located near the small village of Kok-Moinok in the Boom gorge. They are narrow, winding passages in yellow-red sandstone with a depth of 10-70m. The proximity of the Chu River with shrubs on the bank brings bright revitalizing notes to the landscapes. The river here flows through the plain, which is located on average at an altitude of 1550 m above sea level.The length of the canyons is different and ranges from 100m to 2.5 km. They are very photogenic, but vary greatly in beauty and picturesqueness.",
+    "difficulty":"medium",
+    "price": 65
+      },
+      {
+        "id": 9,
+        "imgURL": "/images/9.png",
+        "title": "Adygene",
+        "region": "Chui",
+       "description":"Slide Adygene gorge - Ala-Archa side gorge. You can get here through the Adegene bridge in the parking lot before reaching the alpine camp. First, the trail climbs up the right bank of the Adegene river. here in the shade of firs and larches a cemetery is arranged - the last shelter of climbers who died while climbing the mountain peaks of Ala-archa.",
+    "difficulty":"advanced",
+    "price": 65
+      },
+      {
+        "id": 10,
+        "imgURL": "/images/10.png",
+        "title": "Kel-Suu",
+        "region": "Naryn",
+       "description":"Kel-Suu is a high-mountainous lake of glacial origin, located in the southeastern part of the Naryn region, near the Kyrgyz-Chinese border, at an altitude of 3500 meters. The lake is remarkable for its stunning views - the water in it is bright blue and contrasts very beautifully with the surrounding rocks. This is one of the most beautiful and at the same time inaccessible places in Kyrgyzstan.",
+    "difficulty":"medium",
+    "price": 90
+      },
+      {
+        "id": 11,
+        "imgURL": "/images/11.png",
+        "title": "Son-Kul Lake",
+        "region": "Naryn",
+       "description":"Son-Kul Lake is a large alpine lake located in the Tian Shan mountain range, north-west of Naryn.It’s a great destination go hiking or horseback riding and to discover breathtaking landscapes, inhabited only by a few Kyrgyz nomads who come with their herds in the sunny days.",
+    "difficulty":"medium",
+    "price": 45
+      },
+      {
+        "id": 12,
+        "imgURL": "/images/12.png",
+        "title": "Too-Ashuu Pass",
+        "region": "Osh",
+       "description":"The Too-Ashuu pass is a majestic place located 135 km from the city of Bishkek, along the road connecting the northern and southern capitals of the country. The height of the pass is 3400 m. The road in this place is truly breathtaking, and indescribable mountain landscapes open up to the traveler's eyes.The strongest wind blows here, and the mountains are covered with ice caps all year round. But the air on the pass is uniquely fresh and clean, and each person, inhaling it, understands that he has never met such air anywhere. On the southern slope of Too-Ashuu there is a ski resort, popular among skiers and snowboarders in winter. The Suusamyr valley begins behind the pass.",
+    "difficulty":"easy",
+    "price": 75
+      }
+      
+    
+]

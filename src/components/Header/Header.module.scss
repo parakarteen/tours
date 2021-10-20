@@ -1,0 +1,26 @@
+.headerWrapper {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Inter', sans-serif;
+
+    img{
+        width: 41px;
+        height: 41px;
+    }
+}
+
+.nav {
+    display: flex;
+    list-style-type: none;
+}
+
+.navigation{
+    display: flex;
+    text-align: center;
+
+    div{
+        margin-left: 50px;
+    }
+
+    
+}

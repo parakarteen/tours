@@ -1,0 +1,50 @@
+.footerMain{
+    margin-top: 80px;
+    background:#F9F9FB;
+    .countainer{
+        
+        margin-top: 220px;
+        margin: 50px auto;
+        margin-bottom: 0;
+        max-width: 1200px;
+        width: 100%;
+    
+        .left{
+            padding-top: 70px;
+    
+            p{
+                text-align: center;
+                font-size: 2.2vh;
+                font-family: Mulish;
+                color: #848484;
+            }
+        }
+
+            .right{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                margin-top: 70px;
+                margin-bottom: 25px;
+
+                p{
+                    text-align: center;
+                }
+             }
+
+        
+
+        .lastItem{
+            padding-top: 45px;
+            border-top: 1px solid #848484;
+            text-align: center;
+            p{
+                color: #848484;
+                font-size: 2.1vh;
+                padding-bottom: 20px;
+                margin-bottom: 0;               
+            }
+        }
+
+    }
+}

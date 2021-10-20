@@ -1,0 +1,19 @@
+.Button{
+    background: #FB8F1D;
+    border-radius: 8px;
+    width: 120px;
+    font-size: 14px;
+    color: #FFFFFF;
+    align-items: center;
+    mix-blend-mode: normal;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    padding: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 1s;
+
+    &:hover{
+        background: #e77903;
+    }
+}

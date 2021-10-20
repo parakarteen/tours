@@ -1,0 +1,60 @@
+.about_wrapper{
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+.about_countainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.item_about{
+    font-size: 2.3vh;
+    font-family: 'Mulish', sans-serif;  
+}
+
+.wrap{
+    margin-top: 130px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.itemLocation{
+    position: relative;
+    font-family: Inter;
+    margin-bottom: 20px;
+}
+    .h3{
+        position: absolute;
+        width: 120px;
+        height: 56px;
+        top: 143px;
+        border-radius: 0px 6px 0px 0px;
+        background: #FFFFFF;
+        font-size: 18px;
+        font-weight: 800;
+    }
+    .p{
+        position: absolute;
+        width: 120px;
+        height: 56px;
+        top: 165px;
+        border-radius: 0px 6px 0px 0px;
+        background: #FFFFFF;
+        color: #7D7987;
+        font-size: 18px;
+
+    }
+
+.favorites {
+    border-radius: 5%;
+}
+
+    .btn{
+        position: absolute;
+        left: 5px;
+        background: #B8BECD;
+        margin-top: 5px;
+        color: #7D7987;
+    }
