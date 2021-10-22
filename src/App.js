@@ -38,8 +38,8 @@ function App() {
 
   const onAddFavorites = async (obj, id) => {
     try {
-        const { data } = await axios.post('https://61658a7acb73ea00176420ac.mockapi.io/favorites', obj[id])
-        setFavorites(prev => [...prev, data])
+      const { data } = await axios.post('https://61658a7acb73ea00176420ac.mockapi.io/favorites', obj[id])
+      setFavorites(prev => [...prev, data])
     }
     catch (error) {
       alert('Произошла ошибка...')

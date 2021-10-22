@@ -26,8 +26,8 @@ function Guides() {
     const firstGuidexIndex = lastGuidexIndex - guidesPerPage
     const currentGuides = guides.slice(firstGuidexIndex, lastGuidexIndex)
 
-    const nextPage = () => {if(currentPage < 5){setCurrentPage(next => next + 1)}}
-    const prevPage = () => {if(currentPage > 1){setCurrentPage(prev => prev - 1)}}
+    const nextPage = () => { if (currentPage < 5) { setCurrentPage(next => next + 1) } }
+    const prevPage = () => { if (currentPage > 1) { setCurrentPage(prev => prev - 1) } }
 
 
     return (
@@ -46,8 +46,8 @@ function Guides() {
                             <div className={style.right}>
                                 <img src={item.imgURL} alt="guide" />
                                 <div className={style.btns}>
-                                    <button onClick={prevPage}><img src='./images/previous.png' alt="prev" /></button>
-                                    <button onClick={nextPage}><img src="./images/next.png" alt="next" /></button>
+                                    <button onClick={prevPage}><img className={style.btnItem} width={35} src='./images/prev.png' alt="prev" /></button>
+                                    <button onClick={nextPage}><img className={style.btnItem} width={35} className={style.btnItem} src="./images/next.png" alt="next" /></button>
                                 </div>
                             </div>
                         </div>

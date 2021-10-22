@@ -8,9 +8,7 @@ function Cart() {
     const { cart, setId, onAddFavorites, search, setSearch } = React.useContext(MainContext)
 
     const onClickFavorite = (id) => {
-        // console.log(item);
         onAddFavorites(cart, id - 1)
-        // setIsFavorite(!isFavorite)
     }
 
     const filterTours = cart.filter(tour => {
